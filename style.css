@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
-html,body{
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -26,12 +26,7 @@ html,body{
     letter-spacing: 1px;
 }
 
-/*.counter h3, .radio_button,
-.button_toggle {
-    opacity: 1;
-}*/
-
-.counter{
+.counter {
     position: absolute;
     left: 34%;
     width: 393px;
@@ -83,7 +78,7 @@ h3 {
     width: 152px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    /*color: white;*/
+
 }
 
 .radio_button .but_two label{
@@ -125,7 +120,7 @@ h3 {
     width: 365px;
 }
 
-.user_data div:nth-child(2){
+.user_data div:nth-child(2) {
     margin-left: -22px;
 }
 
@@ -144,7 +139,7 @@ h3 {
 
 }
 
-.workouts label{
+.workouts label {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
 
@@ -213,7 +208,6 @@ h3 {
 
 }
 
-
 .calculate, .delete:active,
 .calculate, .delete:focus {
     outline: none;
@@ -244,7 +238,7 @@ h3 {
 }
 
 .weight_loss,.weight_gain{
-    padding-left: 10px; /* доделать*/
+    padding-left: 10px;
 }
 
 .gray {
