@@ -3,16 +3,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif
 }
 
 .calorie-counter {
     position: relative;
     width: 100%;
     height: 925px;
-    background: url("fruit.png") no-repeat;
+    background-size: cover;
+    background: url("fruit.png") no-repeat center;
 
 }
 
@@ -252,3 +251,8 @@ h3 {
     color: darkgray;
 }
 
+@media screen and (max-device-width: 700px) {
+    .calorie-counter {
+        zoom: 1.8;
+    }
+}
