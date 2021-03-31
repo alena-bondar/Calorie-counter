@@ -251,15 +251,3 @@ h3 {
     font-size: 14px;
     color: darkgray;
 }
-
-@media (max-width: 700px) {
-    .calorie-counter {
-        position: relative;
-        width: 100%;
-        background: url("fruit.png");
-        background-size: auto auto;
-        zoom: 1.4;
-
-
-    }
-}
