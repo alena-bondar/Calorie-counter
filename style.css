@@ -253,6 +253,6 @@ h3 {
 
 @media screen and (max-device-width: 700px) {
     .calorie-counter {
-        zoom: 2;
+        zoom: 1.8;
     }
 }
