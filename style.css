@@ -8,48 +8,41 @@ html {
     box-sizing: inherit;
 }
 
-html, body {
+html, body, h2{
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 body {
-
     background: url("fruit.png") ;
 }
 
-
-/*@media (max-height: 780px) {
-    .calorie-counter {
-        background-image: url("fruit_two.png");
-        background-position: center center;
-        background-size: cover;
-        min-width: 100%;
-        min-height: 700px;
-    }
-}*/
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0 20px 0;;
+}
 
 .counter {
     position: absolute;
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 393px;
-    height: 638px;
+    width: 400px;
+    height: 662px;
     background-color: white;
     box-shadow: 0 0 3px 2px white;
-    top: 87px;
+    top: 73px;
     opacity: 0.8;
     border-radius: 10px;
     padding-left: 23px;
+
 }
 
 .counter h1 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 44px;
-    top: -101px;
+    top: -94px;
     position: absolute;
     color: white;
     margin-bottom: 50px;
@@ -57,19 +50,9 @@ body {
     letter-spacing: 1px
 }
 
-.counter h3 {
-    margin-top: 10px;
-}
-
-h3 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
-}
-
 .radio_button {
     display: inline-block;
     overflow: hidden;
-    margin-top: -9px;
 }
 
 .button_toggle {
@@ -93,7 +76,7 @@ h3 {
 
 .radio_button .but_one label {
     border-radius: 6px 0 0 6px;
-    width: 152px;
+    width: 177px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 
@@ -102,7 +85,7 @@ h3 {
 .radio_button .but_two label {
     border-right: 1px solid #e89027;
     border-radius: 0 6px 6px 0;
-    width: 152px;
+    width: 177px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
@@ -118,9 +101,9 @@ h3 {
 }
 
 .user_data input {
-    width: 43px;
-    height: 27px;
-    font-size: 16px;
+    width: 60px;
+    height: 40px;
+    font-size: 24px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin-top: -9px;
@@ -136,17 +119,17 @@ h3 {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    width: 365px;
+    width: 351px;
 }
 
 .user_data div:nth-child(2) {
-    margin-left: -22px;
+    margin-left: -28px;
 }
 
 .user_data div p {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     color: black;
 }
 
@@ -182,8 +165,8 @@ h3 {
     content: "";
     display: inline-block;
     vertical-align: bottom;
-    width: 11px;
-    height: 11px;
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
     border-radius: 50%;
     border-style: solid;
@@ -225,7 +208,6 @@ h3 {
     font-size: 17px;
     cursor: pointer;
     margin-right: 20px;
-
 }
 
 .calculate, .delete:active,
@@ -235,13 +217,13 @@ h3 {
 
 .result {
     background-color: white;
-    height: 140px;
+    height: 147px;
     width: 400px;
     border-radius: 10px;
     padding-left: 18px;
-    padding-top: 16px;
+    padding-top: 1px;
     margin-left: -23px;
-    margin-top: 47px;
+    margin-top: 33px;
     color: #e89027;
     box-shadow: 0 0 3px 2px white;
 }

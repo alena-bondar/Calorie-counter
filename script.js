@@ -16,7 +16,6 @@ let fiveTrain = document.querySelector('#five');
 let butDelete = document.querySelector('.delete');
 
 butCalc.onclick = function (){
-    debugger;
 
     let age, height, weight;
 
