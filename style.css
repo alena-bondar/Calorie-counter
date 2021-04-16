@@ -14,6 +14,17 @@ html, body {
 
 }
 
+@media (max-width: 780px) {
+    .calorie-counter {
+        background-image: url("fruit_two.png");
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        min-height: 700px;
+    }
+
+}
+
 .counter {
     position: absolute;
     left: 0;
@@ -60,7 +71,7 @@ h3 {
     float: left;
 }
 
-.button_toggle [type=radio]{
+.button_toggle [type=radio] {
     display: none;
 }
 
@@ -74,7 +85,7 @@ h3 {
     user-select: none;
 }
 
-.radio_button .but_one label{
+.radio_button .but_one label {
     border-radius: 6px 0 0 6px;
     width: 152px;
     font-family: 'Ubuntu', sans-serif;
@@ -82,7 +93,7 @@ h3 {
 
 }
 
-.radio_button .but_two label{
+.radio_button .but_two label {
     border-right: 1px solid #e89027;
     border-radius: 0 6px 6px 0;
     width: 152px;
@@ -94,6 +105,7 @@ h3 {
     background: #e89027;
     color: white;
 }
+
 .radio_button .but_two input[type=radio]:checked + label {
     background: #e89027;
     color: white;
@@ -239,7 +251,7 @@ h3 {
     color: black;
 }
 
-.weight_loss,.weight_gain{
+.weight_loss, .weight_gain {
     padding-left: 10px;
 }
 
