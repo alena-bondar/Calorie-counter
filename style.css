@@ -15,7 +15,6 @@ html, body, h2{
 }
 
 body {
-    position: relative;
     background: url("fruit.png");
 
 }
@@ -202,11 +201,13 @@ h2 {
 
 .buttons {
     margin-top: 25px;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .calculate {
     border: none;
-    width: 135px;
+    width: 156px;
     height: 38px;
     border-radius: 4px;
     font-family: 'Ubuntu', sans-serif;
@@ -220,6 +221,8 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     color: darkred;
     border: none;
+    width: 135px;
+    height: 38px;
     background-color: white;
     font-size: 17px;
     cursor: pointer;
