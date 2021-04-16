@@ -1,39 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
-html,body{
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.calorie-counter {
-    position: relative;
     width: 100%;
-    height: 925px;
-    background: url("fruit.png") no-repeat;
-    margin: 0 auto;
-
 }
 
-.counter h1 {
-    margin-top: -73px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size: 47px;
-    color: white;
-    margin-bottom: 50px;
-    margin-left: -17px;
-    letter-spacing: 1px;
+body {
+
+    background: url("fruit.png") ;
 }
 
-/*.counter h3, .radio_button,
-.button_toggle {
-    opacity: 1;
+
+/*@media (max-height: 780px) {
+    .calorie-counter {
+        background-image: url("fruit_two.png");
+        background-position: center center;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 700px;
+    }
 }*/
 
-.counter{
+.counter {
     position: absolute;
-    left: 34%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     width: 393px;
     height: 638px;
     background-color: white;
@@ -42,6 +43,18 @@ html,body{
     opacity: 0.8;
     border-radius: 10px;
     padding-left: 23px;
+}
+
+.counter h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    top: -101px;
+    position: absolute;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: -17px;
+    letter-spacing: 1px
 }
 
 .counter h3 {
@@ -64,7 +77,7 @@ h3 {
     float: left;
 }
 
-.button_toggle [type=radio]{
+.button_toggle [type=radio] {
     display: none;
 }
 
@@ -78,15 +91,15 @@ h3 {
     user-select: none;
 }
 
-.radio_button .but_one label{
+.radio_button .but_one label {
     border-radius: 6px 0 0 6px;
     width: 152px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    /*color: white;*/
+
 }
 
-.radio_button .but_two label{
+.radio_button .but_two label {
     border-right: 1px solid #e89027;
     border-radius: 0 6px 6px 0;
     width: 152px;
@@ -98,6 +111,7 @@ h3 {
     background: #e89027;
     color: white;
 }
+
 .radio_button .but_two input[type=radio]:checked + label {
     background: #e89027;
     color: white;
@@ -125,7 +139,7 @@ h3 {
     width: 365px;
 }
 
-.user_data div:nth-child(2){
+.user_data div:nth-child(2) {
     margin-left: -22px;
 }
 
@@ -144,7 +158,7 @@ h3 {
 
 }
 
-.workouts label{
+.workouts label {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
 
@@ -210,9 +224,9 @@ h3 {
     background-color: white;
     font-size: 17px;
     cursor: pointer;
+    margin-right: 20px;
 
 }
-
 
 .calculate, .delete:active,
 .calculate, .delete:focus {
@@ -243,8 +257,8 @@ h3 {
     color: black;
 }
 
-.weight_loss,.weight_gain{
-    padding-left: 10px; /* доделать*/
+.weight_loss, .weight_gain {
+    padding-left: 10px;
 }
 
 .gray {
