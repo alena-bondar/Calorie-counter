@@ -208,10 +208,10 @@ h2 {
 .calculate {
     border: none;
     width: 156px;
-    height: 38px;
+    height: 48px;
     border-radius: 4px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     background-color: #e89027;
     cursor: pointer;
@@ -221,10 +221,10 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     color: darkred;
     border: none;
-    width: 135px;
+    width: 165px;
     height: 38px;
     background-color: white;
-    font-size: 17px;
+    font-size: 18px;
     cursor: pointer;
     margin-right: 36px;
 }
