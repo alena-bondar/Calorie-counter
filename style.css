@@ -11,10 +11,13 @@ html {
 html, body, h2{
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    background: url("fruit.png") ;
+    position: relative;
+    background: url("fruit.png");
+
 }
 
 h2 {
@@ -35,6 +38,19 @@ h2 {
     opacity: 0.8;
     border-radius: 10px;
     padding-left: 23px;
+
+}
+
+@media (max-width: 760px) {
+    body {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+
+    }
+    html {
+        overflow-x: hidden;
+    }
 
 }
 
@@ -207,7 +223,7 @@ h2 {
     background-color: white;
     font-size: 17px;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 36px;
 }
 
 .calculate, .delete:active,
