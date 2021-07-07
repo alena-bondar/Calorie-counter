@@ -19,18 +19,6 @@ body {
     background: url("fruit.png") ;
 }
 
-
-/*@media (max-height: 780px) {
-    .calorie-counter {
-        background-image: url("fruit_two.png");
-        background-position: center center;
-        background-size: cover;
-        min-width: 100%;
-        min-height: 700px;
-    }
-
-}*/
-
 .counter {
     position: absolute;
     left: 0;
